@@ -9,14 +9,14 @@ class Calculator:
         return x * y
 
     def divide(x, y):
-        if y == 0:
-            return 'Cannot divide by 0'
+        # if y == 0:
+        #     return 'Cannot divide by 0'
         return x * 1.0 / y
 
-    def divide1(x, y):
-        if y == 0:
-            return 'Cannot divide by 0'
-        return x * 1.0 / y
+    # def divide1(x, y):
+    #     if y == 0:
+    #         return 'Cannot divide by 0'
+    #     return x * 1.0 / y
 
     # def divide2(x, y):
     #     if y == 0:
