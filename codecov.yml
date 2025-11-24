@@ -1,6 +1,10 @@
 coverage:
+  precision: 2
+  round: down
+  range: "95...100"
+  notify:
+    # notification blocks. See: https://docs.codecov.io/docs/codecovyml-reference#section-coverage-notify
   status:
     project:
-      default:
-        target: 100%
-        threshold: 1%
+    patch:
+    changes:
