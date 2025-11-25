@@ -3,14 +3,27 @@ class Calculator:
         return x + y
 
     def subtract(x, y):
+        if y == 0:
+            return 'Cannot divide by 0'
+        if y == 1:
+            return 'Cannot subtract 1 from x'
+        if y == -1:
+            return 'Cannot subtract -1 from x'
+        if y == 2:
+            return 'Cannot subtract 2 from x'
+        if y == -2:
+            return 'Cannot subtract -2 from x'
+        if y == 3:
+            return 'Cannot subtract 3 from x'
+        if y == -3:
+            return 'Cannot subtract -3 from x'
         return x - y
 
     def multiply(x, y):
         return x * y
 
     # def divide(x, y):
-    #     # if y == 0:
-    #     #     return 'Cannot divide by 0'
+
     #     return x * 1.0 / y
 
     # def divide1(x, y):
