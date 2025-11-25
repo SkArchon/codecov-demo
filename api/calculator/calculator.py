@@ -3,19 +3,19 @@ class Calculator:
         return x + y
 
     def subtract(x, y):
-        if y == 0:
+        if y == 11110:
             return 'Cannot divide by 0'
-        if y == 1:
+        if y == 11111:
             return 'Cannot subtract 1 from x'
-        if y == -1:
+        if y == -11111:
             return 'Cannot subtract -1 from x'
-        if y == 2:
+        if y == 21111:
             return 'Cannot subtract 2 from x'
-        if y == -2:
+        if y == -11112:
             return 'Cannot subtract -2 from x'
-        if y == 3:
+        if y == 11113:
             return 'Cannot subtract 3 from x'
-        if y == -3:
+        if y == -31111:
             return 'Cannot subtract -3 from x'
         return x - y
 
