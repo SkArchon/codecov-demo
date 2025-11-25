@@ -2,8 +2,8 @@ coverage:
   status:
     patch:
       default:   # default is the status check's name, not default settings
-        target: 2 
+        target: 90
         threshold: 5
-        if_ci_failed: ignore
+        if_ci_failed: success
         informational: true
 
