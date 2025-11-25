@@ -3,15 +3,29 @@ class Calculator:
         return x + y
 
     def subtract(x, y):
+        if y == 11110:
+            return 'Cannot divide by 0'
+        if y == 11111:
+            return 'Cannot subtract 1 from x'
+        if y == -11111:
+            return 'Cannot subtract -1 from x'
+        if y == 21111:
+            return 'Cannot subtract 2 from x'
+        if y == -11112:
+            return 'Cannot subtract -2 from x'
+        if y == 11113:
+            return 'Cannot subtract 3 from x'
+        if y == -31111:
+            return 'Cannot subtract -3 from x'
         return x - y
 
     def multiply(x, y):
         return x * y
 
-    def divide(x, y):
-        # if y == 0:
-        #     return 'Cannot divide by 0'
-        return x * 1.0 / y
+# There
+    # def divide(x, y):
+
+    #     return x * 1.0 / y
 
     # def divide1(x, y):
     #     if y == 0:
