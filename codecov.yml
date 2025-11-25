@@ -4,5 +4,5 @@ coverage:
       default:   # default is the status check's name, not default settings
         target: 2 
         threshold: 5
-        if_ci_failed: ignore
+        if_ci_failed: error
         informational: true
